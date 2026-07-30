@@ -73,10 +73,10 @@ Os parâmetros do PDM variam dinamicamente conforme o índice sazonal da data:
 | Cmax | Cap. máx. de armazenamento do solo (mm) | 1.504,7<br> | 947,9<br> |
 | Cmin | Cap. mín. de armazenamento do solo (mm) | 156,5<br> | 92,2<br> |
 | b | Expoente da distribuição de Pareto | 0,420<br> | 0,191<br> |
-| k_g | Inverso da constante de recarga subterrânea | 638,47<br> | 709,19<br> |
-| k_b | Inverso da constante do fluxo de base | 3.061,5<br> | 3.076,5<br> |
-| k_1 | Constante do 1º reservatório superficial | 2,00<br> | 4,37<br> |
-| k_2 | Constante do 2º reservatório superficial | 5,49<br> | 8,84<br> |
+| kg | Inverso da constante de recarga subterrânea | 638,47<br> | 709,19<br> |
+| kb | Inverso da constante do fluxo de base | 3.061,5<br> | 3.076,5<br> |
+| k1 | Constante do 1º reservatório superficial | 2,00<br> | 4,37<br> |
+| k2 | Constante do 2º reservatório superficial | 5,49<br> | 8,84<br> |
 
 ---
 
@@ -86,18 +86,18 @@ Ao final da execução, o script gera automaticamente na pasta de trabalho:
 
 ### Relatórios em Texto/Tabelas (`.txt` e `.csv`)
 
-* **`TM_Q_ResulCalibsDATA}.txt`:** Série histórica do passado simulado contendo vazão total, escoamento superficial, fluxo de base, evapotranspiração real e umidade do solo.
-* **`TM_V_SimsDATA}.txt`:** Projeção diária do volume útil do reservatório (hm³) para os 7 cenários de variação de chuva.
-* **`TM_V_Sim_PassadosDATA.csv`:** Balanço do volume útil acumulado calculado para o período histórico.
-* **`TM_QNat_CenariossDATA.txt`:** Projeção das vazões diárias para todos os cenários futuros de chuva.
-* **`TM_QNat_PcriticasDATA.csv` / `TM_V_Sim_PcriticasDATA.csv`:** Vazão e volume projetados sob o cenário de seca crítica de longo prazo.
-* **`TM_QNat_P_minima_mensalsDATA}.csv` / `TM_V_Sim_P_minima_mensalsDATA.csv`:** Vazão e volume projetados para o cenário de chuva mínima mensal histórica.
+* **`TM_Q_ResulCalib_DATA.txt`:** Série histórica do passado simulado contendo vazão total, escoamento superficial, fluxo de base, evapotranspiração real e umidade do solo.
+* **`TM_V_Sims_DATA.txt`:** Projeção diária do volume útil do reservatório (hm³) para os 7 cenários de variação de chuva.
+* **`TM_V_Sim_Passado_DATA.csv`:** Balanço do volume útil acumulado calculado para o período histórico.
+* **`TM_QNat_Cenarios_DATA.txt`:** Projeção das vazões diárias para todos os cenários futuros de chuva.
+* **`TM_QNat_Pcritica_DATA.csv` / `TM_V_Sim_Pcritica_DATA.csv`:** Vazão e volume projetados sob o cenário de seca crítica de longo prazo.
+* **`TM_QNat_P_minima_mensal_DATA.csv` / `TM_V_Sim_P_minima_mensal_DATA.csv`:** Vazão e volume projetados para o cenário de chuva mínima mensal histórica.
 
 
 
 ### Gráficos
 
-* **`TM_ObsxSim_zoomsDATA}_NOVO.jpg`:** Gráfico comparativo entre a vazão natural observada e a vazão calculada pelo modelo PDM no período recente e de previsão.
+* **`TM_ObsxSim_zoom_DATA_NOVO.jpg`:** Gráfico comparativo entre a vazão natural observada e a vazão calculada pelo modelo PDM no período recente e de previsão.
 
 
 ---
